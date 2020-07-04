@@ -1,0 +1,920 @@
+/*Main Body*/
+body {
+    margin: 0em;
+    padding: 0em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+    font-weight: 600!important;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Calibri','Montserrat';
+    font-size: 1.2em;
+    color: rgb(90, 90, 90);
+}
+
+@font-face {
+    font-family: 'lovelyFont';
+    src: url('fonts/Signatura\ Monoline.otf');
+}
+
+/*Header*/
+.navbar img {
+    width:20%;
+}
+.navbar {
+    background-color: black;
+}
+
+.navbar-alt {
+    background-color:white;
+    padding: 2em 0;
+}
+
+.navbar-nav {
+    flex-direction: row!important;
+    justify-content: center;
+}
+
+.nav-item {
+    margin:0em 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav-item a {
+    color: black;
+}
+
+button.btn.btn-outline-dark {
+    color:#77C043;
+    border-color:#77C043;
+}
+
+button.btn.btn-outline{
+    color:#77C043;
+    border-color:#77C043;
+    margin-right: 9em;
+}
+
+/*HOME*/
+/*Section One*/
+
+
+.home h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#home.img-fluid.hero {
+    background: url('./images/hero.JPG');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.overlay.section-a {
+    position: absolute;
+    display: block;
+    background-color: rgb(15, 5, 15);
+    height: 100vh;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.hero-text.section-a {
+    position: absolute;
+    font-weight: 700;
+    font-size: 5em;
+    color: white;
+    text-transform: capitalize;
+    padding: 3em 4em;
+    text-align: center;
+    line-height: 1.1em;
+}
+
+/*Section Two*/
+
+.home.section-b {
+    text-align: center;
+    padding:4em 0em;
+}
+
+.home.section-b p {
+    padding: 0.5em 20em;
+}
+
+.home.section-b h2 {
+    font-family: 'lovelyFont';
+    color: #77C043;
+    font-size: 3em;
+    padding: 1em 0em;
+    font-weight: bold;
+} 
+
+/*Section Three*/
+
+
+.img-fluid.hero1 {
+    background: url('./images/hero1.JPG');
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+.overlay.section-c {
+    position: absolute;
+    display: block;
+    background-color: rgb(15, 5, 15);
+    height: 60vh;
+    width: 100%;
+    opacity: 0.5;
+    z-index: 100;
+}
+
+.hero-text.section-c {
+    position: absolute;
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 1.2em;
+    color: white;
+    text-transform: capitalize;
+    padding: 4.5em 10em;
+    text-align: center;
+    z-index: 100;
+}
+
+span {
+    color: #77C043;
+    font-size: 0.8em;
+}
+
+/*Section Four*/
+
+.home.section-d {
+    text-align: center;
+    padding:4em 0em;
+}
+
+.home.section-d p {
+    padding: 0.5em 15em;
+}
+
+.card {
+    align-items: center;
+    background-clip: border-box;
+    border: none!important;
+    border-radius: .25rem;
+}
+
+#home.row img {
+    width: 40%;
+    color: #77C043;
+}
+
+.col.card h2 {
+    padding-bottom: 1em;
+}
+
+.card h2 {
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card p {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+/*Section Five*/
+
+#home.home.section-e {
+    text-align: center;
+    padding:4em 0em;
+}
+
+#home.home.section-e p {
+    padding: 0em 1.5em;
+    padding-top: 0em;
+    font-size: 1.5em;
+    font-weight: 500;
+    text-align: left;
+    margin-right: 5em;
+    padding-top: 2em;
+}
+
+#home.home.section-e span {
+    font-size: 1.2em;
+    color: #77C043;
+    margin-right: 5em;
+}
+
+#home.section-e img {
+    width:100%
+}
+
+/*Section Six*/
+
+.home.section-f {
+    text-align: center;
+    padding:4em 0em;
+}
+
+.home.section-f p {
+    padding: 0.5em 12em;
+}
+
+button#home-btn.btn.btn-secondary {
+    color: #8D3F23;
+    background-color: #fff;
+}
+
+/*Section Seven*/
+
+.col-5.img-fluid {
+    margin-left: -15px!important;
+}
+
+
+.col-7.pre-footer {
+    padding: 4em 15em 5em 2em;
+}
+
+.section-g img {
+    width:100%
+}
+
+.home.section-g {
+    background-color: #8D3F23;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+.home.section-g p {
+    color: white;
+}
+
+/*Section Eight*/
+
+.home.section-h {
+    text-align: center;
+    padding:4em 0em;
+}
+
+.row.section-h {
+    justify-content: center;
+    padding:2em 0em;
+}
+
+.section-h img {
+    width: 100%;
+    height: 40vh;
+    padding: 1em 0;
+}
+
+.section-h h2 {
+    font-size: 1.4em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.col-3.h {
+    text-align: left;
+} 
+
+button#home-btn.btn-primary {
+    color: #77C043;
+    border: 2px solid #77C043;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+/*Footer*/
+
+.row {
+    margin-right: 0px!important;
+}
+
+.footer {
+    background-color: black;
+    text-align: center;
+    padding: 2em 0em;
+}
+
+.footer img {
+    width:15%;
+}
+
+.navbar img {
+    width:20%;
+}
+.footer {
+    background-color: black;
+}
+
+.footer-alt {
+    background-color: black;
+    padding: 2em 0;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row!important;
+    justify-content: center;
+}
+
+.footer-item {
+    margin:0em 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.footer-item a {
+    color: white;
+}
+
+.input-group.mb-3 {
+    text-align: center;
+    width: 40%;
+    padding-left: 3em;
+}
+
+.row.footer {
+    display: block ruby;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    
+}
+
+.row.copyright {
+    display: block;
+    text-align: center;
+    font-family: 'calibri', 'sans-serif';
+    font: 500;
+    font-size: 1.2em;
+    color: white;
+    list-style: none;
+}
+
+input.form-control {
+    padding: 1.8em!important;
+    color: white;
+    background-color: #1a1a1a;
+    border: none;
+    font-style: italic;
+}
+
+button#button-addon2.btn.btn-outline-secondary {
+    padding: .375rem 2rem;
+}
+
+.btn-outline-secondary {
+    color: white!important;
+    background: #77C043!important;
+    border:none!important;
+}
+
+/*WHAT WE DO*/
+/*Section One*/
+
+
+.wwd h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#wwd.img-fluid.hero {
+    background: url('./images/empowering-lives.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.overlay.section-a {
+    position: absolute;
+    display: block;
+    background-color: rgb(15, 5, 15);
+    height: 100vh;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.hero-text.section-a {
+    position: absolute;
+    font-weight: 700;
+    font-size: 5em;
+    color: white;
+    text-transform: capitalize;
+    padding: 3em 4em;
+    text-align: center;
+    line-height: 1.1em;
+}
+
+/*Section Two*/
+
+.wwd.section-b {
+    text-align: center;
+    padding:4em 0em;
+}
+
+.wwd.section-b p {
+    padding: 0.5em 12em;
+}
+
+.wwd.section-b img {
+    width: 20%;
+}
+
+/*Section Three*/
+
+.wwd.section-c {
+    text-align: center;
+}
+
+.row.section-c {
+    justify-content: center;
+    padding:2em 0em;
+}
+
+.section-c img {
+    width: 20%;
+    padding: 1em 0;
+}
+
+.section-c h2 {
+    font-size: 1.4em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.col-4.c {
+    text-align: left;
+    padding: 0em 2em;
+} 
+
+button#home-btn.btn-primary {
+    color: #77C043;
+    border: 2px solid #77C043;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+/*Section Four*/
+
+.wwd.section-d {
+    text-align: center;
+    padding:4em 0em;
+}
+
+.row.section-d {
+    justify-content: center;
+    padding:2em 0em;
+}
+
+.section-d img {
+    width: 100%;
+    height: 40vh;
+    padding: 1em 0;
+}
+
+.section-d h2 {
+    font-size: 1.4em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.col-3.d {
+    text-align: left;
+} 
+
+/*Section Five*/
+
+.col-5.img-fluid {
+    margin-left: -15px!important;
+}
+
+
+.col-7.pre-footer {
+    padding: 4em 15em 5em 2em;
+}
+
+.section-e img {
+    width:100%
+}
+
+.wwd.section-e {
+    background-color: #8D3F23;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+.wwd.section-e p {
+    color: white;
+}
+
+/*OUR PEOPLE*/
+/*Section One*/
+
+
+#people h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#people.img-fluid.hero {
+    background: url('./images/team.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.overlay.section-a {
+    position: absolute;
+    display: block;
+    background-color: rgb(15, 5, 15);
+    height: 100vh;
+    width: 100%;
+    opacity: 0.5;
+}
+
+#people.hero-text.section-a {
+    position: absolute;
+    font-weight: 700;
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    padding: 4em 6em;
+    line-height: 1.1em;
+}
+
+/*Section Two*/
+
+.people.section-b {
+    text-align: center;
+    padding:2em 0em;
+}
+
+.people.section-b p {
+    padding: 0.5em 12em;
+}
+
+/*Section Three*/
+
+.people.section-c {
+    text-align: center;
+    padding:2em 0em;
+    background-color: #f2f2f2;
+}
+
+.container {
+    background-color: #f2f2f2;
+}
+
+.people.section-c p {
+    padding: 0.5em 15em;
+}
+
+.card {
+    align-items: center;
+    background-clip: border-box;
+    border: none!important;
+    border-radius: .25rem;
+}
+
+.card img {
+    width:70%;
+}
+
+.card h2 {
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.card p {
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: -1em;
+}
+
+
+#people.col.card {
+    background-color: #f2f2f2;
+}
+
+/*Section Four*/
+
+.people h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top:2em;
+}
+
+.people.section-d {
+    text-align: center;
+    padding:2em 0em;
+    
+}
+
+.people.section-d p {
+    padding: 0.5em 10em;
+}
+
+#directors.col.card img {
+    width:100;
+    height: 50vh;
+    padding: 1em 0;
+}
+
+.card h2 {
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#directors.card p {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+/*Section Five*/
+
+/*Section Six*/
+
+.col-5.img-fluid {
+    margin-left: -15px!important;
+}
+
+#people.col-7.pre-footer {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 2em;
+    color: white;
+}
+
+#people.col-7.pre-footer {
+    font-family: 'Calibri','Montserrat';
+    font-size: 1.2em;
+    text-transform: none;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 4em 15em 5em 2em;
+}
+
+.section-g img {
+    width:100%;
+    height:57vh;
+}
+
+.people.section-g {
+    background-color: #8D3F23;
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+.people.section-g p {
+    color: white;
+    font-size: 1em;
+    line-height: 1.2em;
+    font-weight: 400;
+    font-family: 'Calibri' , 'sans-serif';
+}
+
+#people h1 {
+    padding-top: 0em;
+    padding-bottom: 0.3em;
+    margin-top: -1em;
+    font-weight: 500;
+}
+
+button#people.btn {
+    color: #8D3F23;
+    background-color: white;
+}
+
+/*Footer*/
+
+.row {
+    margin-right: 0px!important;
+}
+
+.footer {
+    background-color: black;
+    text-align: center;
+    padding: 2em 0em;
+}
+
+.footer img {
+    width:15%;
+}
+
+.navbar img {
+    width:20%;
+}
+.footer {
+    background-color: black;
+}
+
+.footer-alt {
+    background-color: black;
+    padding: 2em 0;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row!important;
+    justify-content: center;
+}
+
+.footer-item {
+    margin:0em 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.footer-item a {
+    color: white;
+}
+
+.input-group.mb-3 {
+    text-align: center;
+    width: 40%;
+    padding-left: 3em;
+}
+
+.row.footer {
+    display: block ruby;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    
+}
+
+.row.copyright {
+    display: block;
+    text-align: center;
+    font-family: 'calibri', 'sans-serif';
+    font: 500;
+    font-size: 1.2em;
+    color: white;
+    list-style: none;
+}
+
+input.form-control {
+    padding: 1.8em!important;
+    color: white;
+    background-color: #1a1a1a;
+    border: none;
+    font-style: italic;
+}
+
+button#button-addon2.btn.btn-outline-secondary {
+    padding: .375rem 2rem;
+}
+
+.btn-outline-secondary {
+    color: white!important;
+    background: #77C043!important;
+    border:none!important;
+}
+
+/*DONATE*/
+/*Section One*/
+
+#donate h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#donate.img-fluid.hero {
+    background: url('./images/hero-bg2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.overlay.section-a {
+    position: absolute;
+    display: block;
+    background-color: rgb(15, 5, 15);
+    height: 100vh;
+    width: 100%;
+    opacity: 0.5;
+}
+
+#donate.hero-text.section-a {
+    position: absolute;
+    font-weight: 700;
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    padding: 4em 6em;
+    line-height: 1.1em;
+}
+
+/*Section Two*/
+
+.donate.section-b {
+    text-align: center;
+    padding:2em 0em;
+}
+
+.donate.section-b p {
+    padding: 0.5em 13em;
+}
+
+.donate.section-b h2 {
+    font-family: 'lovelyFont';
+    color: #77C043;
+    font-size: 4em;
+    font-weight: 600;
+} 
+
+
+/*Section Three*/
+
+.donate.section-c {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding-bottom: 4em;
+}
+
+#donate img {
+    width: 70%;
+}
+
+.donate.section-c h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 0.5em;
+}
+
+.donate.section-c p {
+    padding: 0.5em 15em;
+}
+
+button#donate.btn {
+    font-weight: 400;
+    color: white;
+    background-color:#8D3F23;
+}
+
+/*Section Four*/
+
+#donate.img-fluid {
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+    width: 100%;
+}
+
+
+/*Section Five*/
+
+.donate.section-e h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 1em;
+}
+.donate.section-e {
+    text-align: center;
+    padding: 1em 15em;
+}
+
+.donate.section-e p {
+    font-style: italic;
+}
+
+
+/*Section Six*/
+
+#donate.row {
+    text-align: center!important;
+    padding: 8em 15em;
+    background-color:#8D3F23;
+}
+
+#donate p {
+    color: white;
+}
+
+button#donate-last.btn {
+    margin-left: 25em;
+    margin-top: 3em;
+    font-weight: 400;
+    color: #8D3F23;
+    background-color:white;
+}
