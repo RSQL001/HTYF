@@ -11,9 +11,13 @@ body {
 }
 
 p {
-    font-family: 'Calibri','Montserrat';
-    font-size: 1.2em;
+    font-family: 'Montserrat', 'Calibri';
+    font-size: 1em;
     color: rgb(90, 90, 90);
+}
+
+span {
+    font-family: 'Montserrat', sans-serif;
 }
 
 @font-face {
@@ -63,6 +67,14 @@ button.btn.btn-outline{
 /*HOME*/
 /*Section One*/
 
+.home.section-a {
+    position: relative;
+    background: url(./images/hero.JPG);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
 
 .home h1 {
     text-transform: uppercase;
@@ -81,7 +93,7 @@ button.btn.btn-outline{
     position: absolute;
     display: block;
     background-color: rgb(15, 5, 15);
-    height: 100vh;
+    height: 100%;
     width: 100%;
     opacity: 0.5;
 }
@@ -89,12 +101,14 @@ button.btn.btn-outline{
 .hero-text.section-a {
     position: absolute;
     font-weight: 700;
+    font-family: 'calibri', 'sans-serif';
     font-size: 5em;
     color: white;
     text-transform: capitalize;
     padding: 3em 4em;
     text-align: center;
     line-height: 1.1em;
+    z-index: 100;
 }
 
 /*Section Two*/
@@ -114,10 +128,18 @@ button.btn.btn-outline{
     font-size: 3em;
     padding: 1em 0em;
     font-weight: bold;
+    text-transform: capitalize;
 } 
 
 /*Section Three*/
 
+.home.section-c {
+    position: relative;
+    height: 60vh;
+    background-image: url('./images/hero1.jpg');
+    background-position: center;
+    filter: grayscale(100%);
+}
 
 .img-fluid.hero1 {
     background: url('./images/hero1.JPG');
@@ -129,10 +151,9 @@ button.btn.btn-outline{
 }
 
 .overlay.section-c {
-    position: absolute;
     display: block;
     background-color: rgb(15, 5, 15);
-    height: 60vh;
+    height: 100%;
     width: 100%;
     opacity: 0.5;
     z-index: 100;
@@ -342,13 +363,14 @@ button#home-btn.btn-primary {
 }
 
 .input-group.mb-3 {
+    display: inline-flex;
     text-align: center;
     width: 40%;
     padding-left: 3em;
 }
 
 .row.footer {
-    display: block ruby;
+    display: block;
     padding-top: 0em;
     padding-bottom: 0em;
     
@@ -359,7 +381,7 @@ button#home-btn.btn-primary {
     text-align: center;
     font-family: 'calibri', 'sans-serif';
     font: 500;
-    font-size: 1.2em;
+    font-size: 0.9em;
     color: white;
     list-style: none;
 }
@@ -385,18 +407,18 @@ button#button-addon2.btn.btn-outline-secondary {
 /*WHAT WE DO*/
 /*Section One*/
 
-
-.wwd h1 {
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
-#wwd.img-fluid.hero {
-    background: url('./images/empowering-lives.jpg');
+.wwd.section-a {
+    position: relative;
+    background: url(./images/empowering-lives.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
     width: 100%;
+}
+
+.wwd h1 {
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 .overlay.section-a {
@@ -524,18 +546,18 @@ button#home-btn.btn-primary {
 /*OUR PEOPLE*/
 /*Section One*/
 
-
-#people h1 {
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
-#people.img-fluid.hero {
-    background: url('./images/team.jpg');
+.people.section-a {
+    position: relative;
+    background: url(./images/team.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
     width: 100%;
+}
+
+#people h1 {
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 .overlay.section-a {
@@ -553,7 +575,7 @@ button#home-btn.btn-primary {
     font-size: 5em;
     color: rgb(255, 255, 255);
     text-transform: capitalize;
-    padding: 4em 6em;
+    padding: 4em 3em;
     line-height: 1.1em;
 }
 
@@ -651,6 +673,15 @@ button#home-btn.btn-primary {
 
 /*Section Five*/
 
+.people.section-e {
+    display: inline;
+    text-align: center;
+}
+
+#partners.col.card {
+    background-color: none;
+}
+
 /*Section Six*/
 
 .col-5.img-fluid {
@@ -665,12 +696,12 @@ button#home-btn.btn-primary {
 }
 
 #people.col-7.pre-footer {
-    font-family: 'Calibri','Montserrat';
-    font-size: 1.2em;
+    font-family: 'Montserrat','Calibri';
+    font-size: 1.1em;
     text-transform: none;
     font-weight: 400;
     line-height: 1.5;
-    padding: 4em 15em 5em 2em;
+    padding: 4em 12em 5em 2em;
 }
 
 .section-g img {
@@ -689,7 +720,7 @@ button#home-btn.btn-primary {
     font-size: 1em;
     line-height: 1.2em;
     font-weight: 400;
-    font-family: 'Calibri' , 'sans-serif';
+    font-family: 'Montserrat','Calibri';
 }
 
 #people h1 {
@@ -697,6 +728,7 @@ button#home-btn.btn-primary {
     padding-bottom: 0.3em;
     margin-top: -1em;
     font-weight: 500;
+    font-size: 2rem;
 }
 
 button#people.btn {
@@ -767,7 +799,7 @@ button#people.btn {
     text-align: center;
     font-family: 'calibri', 'sans-serif';
     font: 500;
-    font-size: 1.2em;
+    font-size: 0.9em;
     color: white;
     list-style: none;
 }
@@ -793,17 +825,18 @@ button#button-addon2.btn.btn-outline-secondary {
 /*DONATE*/
 /*Section One*/
 
-#donate h1 {
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
-#donate.img-fluid.hero {
-    background: url('./images/hero-bg2.jpg');
+.donate.section-a {
+    position: relative;
+    background: url(./images/hero-bg2.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
     width: 100%;
+}
+
+#donate h1 {
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 .overlay.section-a {
@@ -819,9 +852,11 @@ button#button-addon2.btn.btn-outline-secondary {
     position: absolute;
     font-weight: 700;
     font-size: 5em;
-    color: rgb(255, 255, 255);
+    color: white;
     text-transform: capitalize;
-    padding: 4em 6em;
+    padding: 3em 3em;
+    margin-left: 3em;
+    text-align: center;
     line-height: 1.1em;
 }
 
@@ -841,6 +876,7 @@ button#button-addon2.btn.btn-outline-secondary {
     color: #77C043;
     font-size: 4em;
     font-weight: 600;
+    text-transform: none;
 } 
 
 
@@ -918,3 +954,440 @@ button#donate-last.btn {
     color: #8D3F23;
     background-color:white;
 }
+
+/*ABOUT US*/
+/*Section One*/
+
+.about.section-a {
+    position: relative;
+    background: url(./images/49.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.about h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.overlay.section-a {
+    position: absolute;
+    display: block;
+    background-color: rgb(15, 5, 15);
+    height: 100vh;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.hero-text.section-a {
+    position: absolute;
+    font-weight: 700;
+    font-size: 5em;
+    color: white;
+    text-transform: capitalize;
+    padding: 3em 3em;
+    text-align: center;
+    line-height: 1.1em;
+}
+
+/*Section Two*/
+
+.about.section-c {
+    text-align: center;
+}
+
+.row.section-b {
+    justify-content: center;
+    padding:2em 0em;
+}
+
+.section-b img {
+    width: 40%;
+    padding: 1em 0;
+}
+
+.section-b h2 {
+    font-size: 1.4em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.col-4.b {
+    text-align: left;
+    padding: 0em 2em;
+} 
+
+button#home-btn.btn-primary {
+    color: #77C043;
+    border: 2px solid #77C043;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+
+/*Section Three*/
+
+.about.section-c p {
+    padding: 1em 10em;
+}
+
+/*Section Four*/
+
+.about.section-d p {
+    padding: 2em 10em;
+}
+
+/*Section Five*/
+
+.about h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+.about.section-e {
+    background-image: url('./images/empowering-lives.jpg');
+    background-position: center;
+    background-size: cover;
+    background-color: red;
+    height: 50vh;
+    width: 100%;
+}
+
+
+#about.overlay.section-e {
+    position: absolute;
+    display: block;
+    background-color: rgb(15, 5, 15);
+    height: 50%;
+    width: 100%;
+    opacity: 0.5;
+}
+
+
+.hero-text.section-e {
+    position: absolute;
+    font-weight: 700;
+    font-size: 5em;
+    color: white;
+    text-transform: capitalize;
+    padding: 3em 3em;
+    text-align: center;
+    line-height: 1.1em;
+    z-index: 100;
+}
+
+.hero-text.section-e h1 {
+    color: white;
+    margin: -8em auto;
+    position: absolute;
+    z-index: 100;
+}
+
+.hero-text.section-e p {
+    color: white;
+    position: relative;
+    z-index: 100;
+}
+
+#about-a.row {
+    color: none;
+    margin: 2em auto;
+    position: absolute;
+    z-index: 100;
+}
+
+#about-b.row {
+    color: none;
+    margin: 4em auto;
+    position: absolute;
+    z-index: 100;
+}
+
+
+
+/*Section Six*/
+
+#about.about.section-f {
+    display: inline-block;
+    text-align: center;
+    padding: 4em 0;
+}
+
+
+#about.container {
+    padding: 3em 0em;
+    background-color: transparent;
+}
+
+.col.card.spa {
+    background-color: black;
+    margin: 0em 0.4em;
+    text-align: left;
+    display: block;
+}
+
+.col.card.spa h1 {
+    color: white;
+    text-align: left;
+    padding-bottom: 0.4em;
+}
+
+.col.card.spa p {
+    background-color: black;
+    margin: 0em 0.4em;
+    text-align: left;
+    font-size: 1em;
+    color: rgb(199, 199, 199);
+}
+
+button#about-btn.btn-primary {
+    color: #77C043;
+    border: 2px solid #77C043;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+/*Section Seven*/
+
+.col-6.about {
+    text-align: left;
+    padding: 0em 8em;
+} 
+
+.col-6.about h1 {
+    padding: 1em 0em;
+}
+
+#about-map.row {
+    padding: 2em 0em;
+    background: url('./images/dotted.png');
+}
+
+#about.col-6.img-fluid {
+    display: block;
+}
+
+#about.col-6.img-fluid img {
+    height: 70vh;
+    display: block;
+    margin-top: em;
+}
+
+
+/*Section Eight*/
+
+#about.container-fluid {
+    width:auto;
+}
+
+.about.section-h {
+    display: flex;
+    text-align: center!important;
+    background-color:#8D3F23;
+    padding: 5em 0em;
+}
+
+.about.section-h p {
+    color: white;
+}
+
+button#about-last.btn {
+    color: #8D3F23;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#about.row.about h1 {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: white;
+}
+
+#about.row.about p {
+    font-weight: 400;
+    color: white;
+}
+
+#about.row.about {
+    display: block;
+    padding-top: -4em;
+}
+
+.row.about-2 {
+    display: block;
+    padding: 1.5em 0;
+}
+
+/*CONTACT US*/
+/*Section One*/
+
+.contact.section-a {
+    position: relative;
+    background: url(./images/hero.JPG);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.contact.section-a p {
+    padding: 3em 6em;
+}
+
+.contact h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#contact.img-fluid.hero {
+    background: url('./images/contact.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.overlay.section-a {
+    position: absolute;
+    display: block;
+    background-color: rgb(15, 5, 15);
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.hero-text.section-a {
+    position: absolute;
+    font-weight: 700;
+    font-size: 5em;
+    color: white;
+    text-transform: capitalize;
+    padding: 3em 3em;
+    text-align: center;
+    line-height: 1.1em;
+}
+
+/*Section Two*/
+
+.contact.section-b {
+    text-align: center;
+    padding:2em 0em;
+}
+
+.row.section-b {
+    justify-content: center;
+    padding:2em 0em;
+}
+
+.section-b img {
+    width: 40%;
+    padding: 1em 0;
+}
+
+.section-b h2 {
+    font-family: 'lovelyFont';
+    color: #8D3F23;
+    font-size: 3em;
+    font-weight: 600;
+    text-transform: none;
+    padding-top: 1em;
+}
+
+.col-4.b {
+    text-align: left;
+    padding: 0em 2em;
+} 
+
+button#home-btn.btn-primary {
+    color: #77C043;
+    border: 2px solid #77C043;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+
+/*Section Three*/
+
+form {
+    text-align: left;
+}
+
+.form-group {
+    text-align: left;
+}
+
+#contact.contact.section-c {
+    display: block ruby;
+}
+
+#contact label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    text-align: center;
+    color: #000;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+input.form-control.fill {
+    background-color: white;
+    border: 2px solid #8D3F23;
+}
+
+.form-control.fill {
+    border: 2px solid #8D3F23;
+}
+
+#form.col-8 {
+    display: inline-block;
+} 
+
+#form {
+    background-color: #fff!important;
+    color: rgb(180, 180, 180);
+    
+}
+
+.form-selector {
+    border: 2px solid #8D3F23;
+}
+
+.contact.section-c {
+    text-align: center;
+    padding:2em 0em;
+}
+
+.contact.section-c p {
+    padding: 1em 10em;
+}
+
+#contact.btn.btn-primary {
+    display: block;
+    padding: .375rem 2.5rem;
+    background-color: #8D3F23;
+    border-color: none!important;
+}
+
+.btn-primary {
+    background-color: none;
+    border-color: none;
+}
+
+/*Section Four*/
+
+.contact.section-d {
+    text-align: center;
+    padding:2em 0em;
+}
+
+.contact.section-d span {
+    text-align: center;
+    color: #000;
+    font-size: 1em;
+    font-weight: 700;
+}
+
