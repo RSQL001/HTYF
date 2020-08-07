@@ -347,10 +347,6 @@ button#home-btn.btn-primary {
 
 /*Footer*/
 
-.row-footer {
-    margin-right: 0px!important;
-}
-
 .footer {
     background-color: black;
     text-align: center;
@@ -401,7 +397,7 @@ button#home-btn.btn-primary {
     display: block;
     padding-top: 0em;
     padding-bottom: 0em;
-    
+    margin-right: 0px!important;
 }
 
 .row.copyright {
