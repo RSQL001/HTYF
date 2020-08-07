@@ -290,10 +290,11 @@ button#home-btn.btn.btn-secondary {
 .col-5.img-fluid {
     margin-left: -15px!important;
     padding:0em;
+    display: none;
 }
 
-#home-prefooter {
-    padding:0em;
+.col-12.img-fluid {
+    padding:0em!important;
 }
 
 .col-7.pre-footer {
