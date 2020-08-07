@@ -289,8 +289,12 @@ button#home-btn.btn.btn-secondary {
 
 .col-5.img-fluid {
     margin-left: -15px!important;
+    padding:0em;
 }
 
+#home-prefooter {
+    padding:0em;
+}
 
 .col-7.pre-footer {
     padding: 4em 15em 5em 2em;
