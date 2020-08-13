@@ -134,7 +134,7 @@ button.btn.btn-outline{
     font-size: 5em;
     color: white;
     text-transform: capitalize;
-    padding: 3em 4em;
+    padding: 6em 4em;
     text-align: center;
     line-height: 1.1em;
     z-index: 100;
@@ -290,7 +290,6 @@ button#home-btn.btn.btn-secondary {
 .col-5.img-fluid {
     margin-left: -15px!important;
     padding:0em;
-    display: none;
 }
 
 .col-12.img-fluid {
@@ -865,7 +864,7 @@ button#donate.btn {
 #donate.img-fluid {
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 120vh;
     width: 100%;
 }
 
@@ -894,8 +893,9 @@ button#donate.btn {
 }
 
 #donate.row {
+    display: block;
     text-align: center!important;
-    padding: 8em 15em;
+    padding: 6em 19em;
     background-color:#8D3F23;
 }
 
@@ -904,7 +904,6 @@ button#donate.btn {
 }
 
 button#donate-last.btn {
-    margin-left: 25em;
     margin-top: 3em;
     font-weight: 400;
     color: #8D3F23;
@@ -992,12 +991,14 @@ button#home-btn.btn-primary {
 /*Section Four*/
 
 .about.section-d p {
+    text-align: center;
     padding: 2em 10em;
 }
 
 /*Section Five*/
 
 .about h1 {
+    text-align: center;
     text-transform: uppercase;
     font-weight: 600;
 }
@@ -1025,14 +1026,6 @@ button#home-btn.btn-primary {
 .far {
     color: #77C043;
     font-size: 20px;
-}
-
-.villain-text.section-e {
-    position: absolute;
-    color: white;
-    line-height: 1.9em;
-    z-index: 100;
-    margin: 7em 15em;
 }
 
 .villain-text.section-e p {
@@ -1104,6 +1097,10 @@ button#home-btn.btn-primary {
 
 .face {
     padding: 2em 8em;
+}
+
+#about-spa.row {
+    padding: 4em 0em;
 }
 
 .col.card.spa {
@@ -1386,7 +1383,9 @@ input.form-control.fill {
 
 
 @media (max-width: 440px)  {
-    
+
+
+    /*HOME*/
     #home-tablet {
         display: none;
     }
@@ -1490,7 +1489,7 @@ input.form-control.fill {
         padding-right: 0px;
     }
 
-    .home.section-f h1 {
+    .section-f h1 {
         font-size: 1.5rem;
     }
     
@@ -1581,7 +1580,6 @@ input.form-control.fill {
 
     input.form-control {
         font-size: .8rem;
-        width:80%;
         text-align: center;
         display: inline-block;
         border-top-right-radius: 5px!important;;
@@ -1591,12 +1589,376 @@ input.form-control.fill {
     .row.copyright {
         margin-top: 1em;
     }
+
+    /*OUR PEOPLE*/
+
+    #people-tablet {
+        display: none;
+    }
+
+    #people-desktop {
+        display: none;
+    }
+
+    p.hero-text.section-a {
+        font-size: 2em;
+        padding: 9em 3em;
+    }
+
+    .people.section-b p {
+        padding: 0.5em 2em;
+        font-size: 0.8em;
+    }
+
+    .people h1 {
+        font-size: 1.5rem;
+    }
+
+    .people.section-c {
+        text-align: center;
+        padding: 0em 0em;
+    }
+
+    .people.section-c p {
+        padding: 0.5em 2em;
+        font-size: 0.8em;
+    }
+
+    .people.section-d p {
+        padding: 0.5em 2em;
+        font-size: 0.8em;
+    }
+
+    .section-d img {
+        height: 50vh;
+    }
+
+    .people.section-g.container-fluid {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .people.section-g.row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    #people.col-12.pre-footer {
+        text-align: left;
+        padding: 2em 1.4em;
+    }
+
+    #people.col-12.pre-footer p {
+        font-size: 0.8em;
+    }
+
+    .people.section-g img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #people h1 {
+        padding-top: 0em;
+        font-weight: 600;
+        font-size: 0.9em;
+        color: white;
+    }
+
+    .card p {
+        margin-top: -1em;
+    }
+
+     /*WHAT WE DO*/
+
+    #wwd-tablet {
+         display: none;
+     }
+
+    #wwd-desktop {
+        display: none;
+    }
+
+    .wwd.section-b {
+        text-align: center;
+        padding: 2em 0em;
+    }
+    
+    .wwd.section-b h1 {
+        font-size: 1.5rem;
+    }
+
+    .wwd.section-b p {
+        padding: 0.5em 2em;
+        font-size: 0.8em;
+    }
+
+    .section-c img {
+        width: 100%;
+        padding: 1em 0;
+    }
+
+    .section-c h2 {
+        font-size: 1.2em;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .row.section-c {
+        padding: 0.5em 2em;
+        font-size: 0.8em;
+    }
+
+    .wwd h1 {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+
+    .section-d h2 {
+        font-size: 1.1em;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .section-d p {
+        padding: 0.5em 1em;
+        font-size: 0.8em;
+    }
+
+    .wwd.section-g.container-fluid {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .wwd.section-g.row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    #wwd.col-12.pre-footer {
+        text-align: center;
+        padding: 1em 0em;
+    }
+
+    #wwd.col-12.pre-footer p {
+        text-align: left;
+        padding: 0.5em 2em;
+        font-size: 0.8em;
+    }
+
+    #btn-footer.input-group-append {
+        padding: 1em;
+        display: inline-block;
+    }
+
+    /*DONATE*/
+
+    #donate.hero-text.section-a {
+        font-size: 2em;
+        padding: 9em 0em;
+    }
+
+    .donate.section-b {
+        padding: 2em 0em;
+    }
+
+    .donate.section-b p {
+        padding: 0.5em 2em;
+        font-size: 0.8em;
+    }
+
+    .donate.section-b h2 {
+        font-family: 'lovelyFont';
+        color: #77C043;
+        font-size: 2.5em;
+        padding: 1em 0em;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    .donate.section-b span {
+        color: #77C043;
+        font-size: 0.8em;
+        padding: 0em 1em;
+
+    }
+
+    .donate.section-c h1 {
+        font-size: 1.5rem;
+    }
+
+    .donate.section-c p {
+        padding: 0.5em 2em;
+        font-size: 0.8em;
+    }
+
+    #donate.img-fluid {
+        height: 50vh;
+        width: 100%;
+    }
+
+    .donate.section-e {
+        padding: 0em 1em;
+    }
+
+    .donate.section-e h1 {
+        font-size: 1.5rem;
+    }
+
+    .donate.section-e p {
+        font-size: 0.8em;
+    }
+
+    #donate.row {
+        text-align: center !important;
+        padding: 2em 0em;
+        background-color: #8D3F23;
+    }
+
+    #donate.row p {
+        font-size: 0.8em;
+        text-align: center !important;
+        padding: 1em 2em;
+        background-color: #8D3F23;
+    }
+
+    button#donate-last.btn {
+        text-align: center;
+        margin-top: 3em;
+        font-weight: 400;
+        color: #8D3F23;
+        background-color: white;
+    }
+
+    .input-group-append {
+        margin-left: -1px;
+        display: block!important;
+        padding: 1em;
+    }
+
+    /*ABOUT US*/
+
+    #about-tablet {
+        display: none;
+    }
+
+    #about-desktop {
+        display: none;
+    }
+  
+    #about.row.section-b {
+        text-align: center;
+    }
+
+    #about.row.section-b p {
+        padding: 0.5em 2em;
+        font-size: 0.8em;
+    }
+
+    #about.row.section-b h1 {
+        font-size: 1.5rem;
+    }
+
+    #about.section-b img {
+        width: 100%;
+        padding: 1em 0;
+    }
+
+    .about h1 {
+        font-size: 1.5rem;
+    }
+
+    .about.section-c p {
+        padding: 0.5em 2em;
+        font-size: 0.8em;
+    }
+
+    .about span {
+        color: #77C043;
+        font-size: 1em;
+        font-weight: 500;
+}
+
+    .about.section-d {
+        text-align: center;
+}
+
+    .about.section-d p {
+        padding: 2em 2em;
+}
+
+    .villain-text.section-e {
+        position: absolute;
+        color: white;
+        z-index: 100;
+        padding: 3em 2em;
+        text-align: center;
+        font-size: 0.8em;
+}
+
+    .face {
+        padding: 0.5em 2em;
+        font-size: 0.8em;
+}
+
+    .card.spa {
+        background-color: #000;
+        margin: 1em auto;
+}
+
+    .about.section-h p {
+        color: white;
+        padding: 0.5em 2em;
+        font-size: 0.8em;
+    }
+
+
+    /*CONTACT US*/
+
+    #contact-tablet {
+        display: none;
+    }
+
+    #contact-desktop {
+        display:none;
+    }
+
+    .contact h1 {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+
+    input.form-control.fill {
+        background-color: white;
+        border: 2px solid #8D3F23;
+        text-align: left;
+    }
+
+    input.form-control {
+        font-size: .8rem;
+        width: none;
+        text-align: center;
+        display: inline-block;
+        border-top-right-radius: 5px !important;
+        border-bottom-right-radius: 5px !important;
+    }
+
+    .contact.section-d {
+        text-align: center;
+        padding: 2em 2em;
+    }
+
+    textarea.form-control {
+        height: 120px;
+    }
+
 }
 
 
 @media (min-width: 440px) and (max-width: 720px) {
 
-    #home {
+    #home-mobile {
         display: none;
     }
 
@@ -1793,8 +2155,6 @@ input.form-control.fill {
     #btn-footer.input-group-append {
         padding: 1em;
         display: inline-block;
-        
-        
     }
 
     button#button-addon2.btn.btn-outline-secondary {
@@ -1814,11 +2174,438 @@ input.form-control.fill {
     .row.copyright {
         margin-top: 1em;
     }
+
+     /*OUR PEOPLE*/
+
+     #people-mobile {
+         display: none;
+     }
+
+    #people-desktop {
+        display: none;
+    }
+
+    .hero-text.section-a {
+        font-size: 3em;
+        padding: 6em 4em;
+    }
+
+    .people.section-b p {
+        text-align: left;
+        padding: 1em 2em;
+        font-size: 0.9em;
+    }
+
+    .people h1 {
+        font-size: 2rem;
+        padding-top: 0em;
+    }
+
+    .people.section-c p {
+        text-align: left;
+        padding: 1em 2em;
+        font-size: 0.9em;
+    }
+
+    .card {
+        background-color: transparent!important;
+    }
+
+    .card p {
+        margin-top: -1em;
+    }
+
+    .card img {
+        width: 100%;
+        color: #77C043;
+    }
+
+    .section-d img {
+        width: 100%;
+        height: none;
+        padding: 1em 0;
+    }
+
+    .people.section-b p {
+        text-align: left;
+        padding: 1em 2em;
+        font-size: 0.9em;
+    }
+
+    .heel p {
+        text-align: left;
+        padding: 1em 3em;
+        font-size: 0.9em;
+    }
+
+    .people.section-g.container-fluid {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .people.section-g.row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    #people.col-12.pre-footer {
+        text-align: left;
+        padding: 2em 1em;
+    }
+
+    #people-tablet.col-12.pre-footer p {
+        text-align: left;
+        padding: 1em 0em;
+        font-size: 0.9em;
+    }
+
+    #people h1 {
+        font-weight: 500;
+        font-size: 1.3em;
+        color: white;
+    }
+    
+    .people.section-g img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .people.section-g p {
+        color: white;
+        font-size: 0.9em;
+        line-height: 1.2em;
+        font-weight: 400;
+        font-family: 'Montserrat','Calibri';
+    }
+
+    /*WHAT WE DO*/
+
+    #wwd-mobile {
+        display: none;
+    }
+
+    #wwd-desktop {
+       display: none;
+   }
+
+   .hero-text.section-a {
+    font-size: 3em;
+    padding: 6em 4em;
+}
+
+    .wwd.section-b p {
+    text-align: left;
+    padding: 1em 2em;
+    font-size: 0.9em;
+}
+
+    .wwd.section-b {
+        text-align: center;
+        padding: 2em 0em;
+    }
+
+    .wwd.section-b h1 {
+        font-size: 2rem;
+    }
+
+    .wwd h1 {
+        font-size: 2rem;
+        padding-top: 0em;
+    }
+
+    .wwd.section-c p {
+        text-align: left;
+        padding: 1em 0em;
+        font-size: 0.9em;
+    }
+
+    .wwd.section-b img {
+        width: 40%;
+    }
+
+    .section-c h2 {
+        font-size: 1.5em;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .row.section-c {
+        padding: 0.5em 2em;
+        font-size: 0.9em;
+    }
+
+    .section-c img {
+        width: 80%;
+    }
+
+    .wwd h1 {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+
+    .section-d img {
+        width: 80%;
+        height:50vh;
+    }
+    
+    .section-d h2 {
+        font-size: 1.1em;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .section-d p {
+        padding: 0.5em 1em;
+        font-size: 0.8em;
+    }
+
+    .wwd.section-e p {
+        color: white;
+        font-size: 0.9em;
+        line-height: 1.2em;
+        font-weight: 400;
+        font-family: 'Montserrat','Calibri';
+    }
+
+    #wwd.col-12.pre-footer {
+        padding: 1em 3em;
+    }
+
+    .input-group-append {
+        padding: 1em!important;
+        display: inline-block;
+    }
+
+
+    /*DONATE*/
+
+    #donate.hero-text.section-a {
+        font-size: 3em;
+        padding: 5em 0em;
+    }
+
+    .donate.section-b {
+        padding: 2em 1em;
+    }
+
+    .donate.section-b p {
+        text-align: left;
+        padding: 1em 2em;
+        font-size: 0.9em;
+    }
+
+    .donate.section-b h2 {
+        font-family: 'lovelyFont';
+        color: #77C043;
+        font-size: 3em;
+        padding: 1em 0em;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    .donate.section-b span {
+        color: #77C043;
+        font-size: 0.9em;
+        padding: 0em 1em;
+    }
+
+    .donate.section-c h1 {
+        font-size: 2rem;
+    }
+
+    .donate.section-c p {
+        padding: 0.5em 2em;
+        font-size: 0.9em;
+    }
+
+    #donate.img-fluid {
+        height: 50vh;
+        width: 100%;
+    }
+
+    .donate.section-e {
+        padding: 0em 1em;
+    }
+
+    .donate.section-e h1 {
+        font-size: 2rem;
+    }
+
+    .donate.section-e p {
+        font-size: 0.9em;
+    }
+
+    #donate.row {
+        text-align: center !important;
+        padding: 2em 0em;
+        background-color: #8D3F23;
+    }
+
+    #donate.row p {
+        font-size: 0.9em;
+        text-align: center !important;
+        padding: 1em 2em;
+        background-color: #8D3F23;
+    }
+
+    button#donate-last.btn {
+        text-align: center;
+        margin-top: 3em;
+        font-weight: 400;
+        color: #8D3F23;
+        background-color: white;
+    }
+
+    .input-group-append {
+        margin-left: -1px;
+        display: block!important;
+        padding: 1em;
+    }
+
+        /*ABOUT US*/
+
+        #about-tablet {
+            display: none;
+        }
+    
+        #about-desktop {
+            display: none;
+        }
+      
+        #about.row.section-b {
+            text-align: center;
+        }
+    
+        #about.row.section-b p {
+            text-align: left;
+            padding: 1em 2em;
+            font-size: 0.9em;
+        }
+    
+        #about.row.section-b h1 {
+            text-align: center;
+            font-size: 2rem;
+        }
+    
+        #about.section-b img {
+            width: 70%;
+            padding: 1em 0;
+        }
+    
+        .about h1 {
+            text-align: center;
+            font-size: 2rem;
+        }
+    
+        .about.section-c p {
+            text-align: left;
+            padding: 1em 2em;
+            font-size: 0.9em;
+        }
+    
+        .about span {
+            color: #77C043;
+            font-size: 1.2em;
+            font-weight: 500;
+    }
+    
+        .about.section-d {
+            text-align: center;
+    }
+    
+        .about.section-d p {
+            padding: 2em 2em;
+    }
+    
+        .villain-text.section-e {
+            position: absolute;
+            color: white;
+            z-index: 100;
+            padding: 3em 2em;
+            text-align: center;
+            font-size: 0.8em;
+    }
+    
+        .face {
+            text-align: left;
+            padding: 1em 2em;
+            font-size: 0.9em;
+    }
+    
+        .col-7.card.spa {
+            background-color: rgb(0, 0, 0)!important;
+            margin: 1em auto;
+    }
+    
+        .about.section-h p {
+            color: white;
+            padding: 0.5em 2em;
+            font-size: 0.8em;
+        }
+    
+        #about-map.row {
+            text-align: left;
+            padding: 1em 2em;
+            font-size: 0.9em;
+        }
+
+        
+    /*CONTACT US*/
+
+    #contact-tablet {
+        display: none;
+    }
+
+    #contact-desktop {
+        display:none;
+    }
+
+    .contact h1 {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+
+    input.form-control.fill {
+        background-color: white;
+        border: 2px solid #8D3F23;
+        text-align: left;
+    }
+
+    input.form-control {
+        font-size: .8rem;
+        width: none;
+        text-align: center;
+        display: inline-block;
+        border-top-right-radius: 5px !important;
+        border-bottom-right-radius: 5px !important;
+    }
+
+    .contact.section-d {
+        text-align: center;
+        padding: 2em 4em;
+    }
+
+    textarea.form-control {
+        height: 120px;
+    }
+
+    label {
+        display: block!important;
+        margin-bottom: .5rem;
+        text-align: left;
+    }
+
+    .form-control {
+        width: 80%!important;
+    }
+
 }
 
 @media (min-width: 720px) and (max-width: 960px) {
 
-    #home {
+    #home-mobile {
         display: none;
     }
     
@@ -1971,10 +2758,264 @@ input.form-control.fill {
     width: 100%;
 }
 
+  /*OUR PEOPLE*/
+
+#people-mobile {
+    display: none;
+}
+
+#people-desktop {
+    display: none;
+}
+
+.hero-text.section-a {
+    font-size: 4em;
+    padding: 4em 1em;
+}
+
+.people.section-b h1 {
+    font-size: 2.5rem;
+}
+
+.people.section-b p {
+    text-align: left;
+    padding: 1em 6em;
+    font-size: 1em;
+}
+
+
+.people.section-c p {
+    text-align: left;
+    padding: 1em 6em;
+    font-size: 1em;
+}
+
+.people.section-d p {
+    text-align: left;
+    padding: 1em 6em;
+    font-size: 1em;
+}
+
+.people h1 {
+    padding-top: 0em;
+}
+
+.people.section-d h1 {
+    font-size: 2.5rem;
+}
+
+.card {
+    background-color: transparent!important;
+}
+
+.card img {
+    width: 100%;
+    color: #77C043;
+}
+
+#people.col-12.pre-footer {
+    text-align: left;
+    padding: 2em 5em;
+}
+
+#people.col-12.pre-footer p {
+    text-align: left;
+    padding: 1em 0em;
+    font-size: 0.9em;
+}
+
+#people h1 {
+    font-weight: 500;
+    font-size: 1.3em;
+    color: white;
+}
+
+    /*WHAT WE DO*/
+
+    #wwd-mobile {
+        display: none;
+    }
+
+    #wwd-desktop {
+        display: none;
+    }
+
+    .wwd.section-b p {
+        text-align: left;
+        padding: 1em 6em;
+        font-size: 1em;
+    }
+
+    .section-c img {
+        width: 50%;
+        padding: 1em 0;
+    }
+
+    .section-d img {
+        width: 60%;
+        height: 30vh;
+        padding: 1em 0;
+    }
+
+    .row.section-c p {
+        text-align: left;
+    }
+
+    .row.section-d p {
+        text-align: left;
+    }
+
+    #wwd.col-12.pre-footer {
+        padding: 1.8em 4em;
+    }
+    
+    /*DONATE*/
+
+    .donate.section-b p {
+        text-align: left;
+        padding: 1em 6em;
+        font-size: 1em;
+    }
+
+    .donate.section-c p {
+        text-align: left;
+        padding: 1em 6em;
+        font-size: 1em;
+    }
+
+    .donate.section-e {
+        text-align: center;
+        padding: 1em 0em;
+    }
+
+    .donate.section-e p {
+        font-style: italic;
+        text-align: left;
+        padding: 1em 6em;
+        font-size: 1em;
+    }
+
+    #donate.row {
+        display: block;
+        text-align: center !important;
+        padding: 4em 6em;
+        background-color: #8D3F23;
+    }
+
+    /*ABOUT US*/
+
+    #about-mobile {
+        display: none;
+    }
+
+    #about-desktop {
+        display: none;
+    }
+  
+    #about.row.section-b {
+        text-align: center;
+    }
+
+    #about.row.section-b p {
+        text-align: left;
+        padding: 1em 6em;
+        font-size: 1em;
+    }
+
+    #about.row.section-b h1 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    #about.section-b img {
+        width: 60%;
+        padding: 1em 0;
+    }
+
+    .about h1 {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .about.section-c p {
+        text-align: left;
+        padding: 1em 6em;
+        font-size: 1em;
+    }
+
+    .about span {
+        color: #77C043;
+        font-size: 1.2em;
+        font-weight: 500;
+}
+
+    .about.section-d {
+        text-align: center;
+}
+
+    .about.section-d p {
+        padding: 2em 2em;
+}
+
+    .villain-text.section-e {
+        position: absolute;
+        color: white;
+        z-index: 100;
+        padding: 3em 8em;
+        text-align: center;
+        font-size: 0.8em;
+}
+
+    .face {
+        text-align: left;
+        padding: 1em 2em;
+        font-size: 0.9em;
+}
+
+    .col-5.card.spa {
+        background-color: rgb(0, 0, 0)!important;
+        margin: 1em 1em;
+}
+
+    .about.section-h p {
+        color: white;
+        padding: 0.5em 2em;
+        font-size: 0.8em;
+    }
+
+    #about-map.row {
+        text-align: left;
+        padding: 1em 2em;
+        font-size: 0.9em;
+    }
+
+    #about.col-12.img-fluid {
+        text-align: center;
+    }
+
+    #about.col-12.img-fluid img {
+        width: 80%;
+    }
+
+
+          
+    /*CONTACT US*/
+
+    #contact-mobile {
+        display: none;
+    }
+
+    #contact-tablet {
+        display:none;
+    }
+
+
 }
 
 @media (min-width: 960px) {
-    
+   
+      /*HOME*/
+
     #home-tablet {
         display: none;
     }
@@ -1986,5 +3027,69 @@ input.form-control.fill {
     #home-mobile.row.copyright {
         display: none;
     }
+
+     /*OUR PEOPLE*/
+
+    #people-mobile {
+        display: none;
+    }
+
+    #people-tablet {
+        display: none;
+    }
+    
+    #people-mobile.row.copyright {
+        display: none;
+    }
+
+     /*WHAT WE DO*/
+
+     #wwd-mobile {
+        display: none;
+    }
+
+    #wwd-tablet {
+        display: none;
+    }
+    
+    #wwd-mobile.row.copyright {
+        display: none;
+    }
+
+    /*WHAT WE DO*/
+
+    .villain-text.section-e {
+        position: absolute;
+        color: white;
+        line-height: 1.9em;
+        z-index: 100;
+        margin: 7em 15em;
+    }
+
+     /*ABOUT US*/
+
+     #about-mobile {
+        display: none;
+    }
+
+    #about-tablet {
+        display: none;
+    }
+    
+    #about-mobile.row.copyright {
+        display: none;
+    }
+
+            
+    /*CONTACT US*/
+
+    #contact-mobile {
+        display: none;
+    }
+
+    #contact-tablet {
+        display:none;
+    }
+
 
 }
