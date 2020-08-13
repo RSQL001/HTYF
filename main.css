@@ -1382,6 +1382,88 @@ input.form-control.fill {
 }
 
 
+@media (min-width: 960px) {
+   
+    /*HOME*/
+
+  #home-tablet {
+      display: none;
+  }
+  
+  #home {
+      display: none;
+  }
+
+  #home-mobile.row.copyright {
+      display: none;
+  }
+
+   /*OUR PEOPLE*/
+
+  #people-mobile {
+      display: none;
+  }
+
+  #people-tablet {
+      display: none;
+  }
+  
+  #people-mobile.row.copyright {
+      display: none;
+  }
+
+   /*WHAT WE DO*/
+
+   #wwd-mobile {
+      display: none;
+  }
+
+  #wwd-tablet {
+      display: none;
+  }
+  
+  #wwd-mobile.row.copyright {
+      display: none;
+  }
+
+  /*WHAT WE DO*/
+
+  .villain-text.section-e {
+      position: absolute;
+      color: white;
+      line-height: 1.9em;
+      z-index: 100;
+      margin: 7em 15em;
+  }
+
+   /*ABOUT US*/
+
+   #about-mobile {
+      display: none;
+  }
+
+  #about-tablet {
+      display: none;
+  }
+  
+  #about-mobile.row.copyright {
+      display: none;
+  }
+
+          
+  /*CONTACT US*/
+
+  #contact-mobile {
+      display: none;
+  }
+
+  #contact-tablet {
+      display:none;
+  }
+
+
+}
+
 @media (max-width: 440px)  {
 
 
@@ -3012,84 +3094,3 @@ input.form-control.fill {
 
 }
 
-@media (min-width: 960px) {
-   
-      /*HOME*/
-
-    #home-tablet {
-        display: none;
-    }
-    
-    #home {
-        display: none;
-    }
-
-    #home-mobile.row.copyright {
-        display: none;
-    }
-
-     /*OUR PEOPLE*/
-
-    #people-mobile {
-        display: none;
-    }
-
-    #people-tablet {
-        display: none;
-    }
-    
-    #people-mobile.row.copyright {
-        display: none;
-    }
-
-     /*WHAT WE DO*/
-
-     #wwd-mobile {
-        display: none;
-    }
-
-    #wwd-tablet {
-        display: none;
-    }
-    
-    #wwd-mobile.row.copyright {
-        display: none;
-    }
-
-    /*WHAT WE DO*/
-
-    .villain-text.section-e {
-        position: absolute;
-        color: white;
-        line-height: 1.9em;
-        z-index: 100;
-        margin: 7em 15em;
-    }
-
-     /*ABOUT US*/
-
-     #about-mobile {
-        display: none;
-    }
-
-    #about-tablet {
-        display: none;
-    }
-    
-    #about-mobile.row.copyright {
-        display: none;
-    }
-
-            
-    /*CONTACT US*/
-
-    #contact-mobile {
-        display: none;
-    }
-
-    #contact-tablet {
-        display:none;
-    }
-
-
-}
