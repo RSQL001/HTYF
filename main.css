@@ -527,16 +527,6 @@ button#button-addon2.btn.btn-outline-secondary {
     opacity: 0.5;
 }
 
-.hero-text.section-a {
-    position: absolute;
-    font-weight: 700;
-    font-size: 5em;
-    color: white;
-    text-transform: capitalize;
-    padding: 3em 4em;
-    text-align: center;
-    line-height: 1.1em;
-}
 
 /*Section Two*/
 
@@ -1005,17 +995,6 @@ button#donate-last.btn {
     opacity: 0.5;
 }
 
-.hero-text.section-a {
-    position: absolute;
-    font-weight: 700;
-    font-size: 5em;
-    color: white;
-    text-transform: capitalize;
-    padding: 3em 3em;
-    text-align: center;
-    line-height: 1.1em;
-}
-
 /*Section Two*/
 
 .about.section-c {
@@ -1314,16 +1293,6 @@ button#about-last.btn {
     opacity: 0.5;
 }
 
-.hero-text.section-a {
-    position: absolute;
-    font-weight: 700;
-    font-size: 5em;
-    color: white;
-    text-transform: capitalize;
-    padding: 3em 3em;
-    text-align: center;
-    line-height: 1.1em;
-}
 
 /*Section Two*/
 
