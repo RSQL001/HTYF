@@ -152,7 +152,7 @@ button.btn.btn-outline{
     background: url(./images/hero-1.jpg);
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: auto;
     width: 100%;
 }
 
@@ -161,7 +161,7 @@ button.btn.btn-outline{
     background: url(./images/hero-2.jpg);
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: auto;
     width: 100%;
 }
 
