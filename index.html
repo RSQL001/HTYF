@@ -8,11 +8,10 @@
     <link rel="stylesheet" href="bootstrap\css\bootstrap.min.css">
     <link rel="stylesheet" href="/css/all.css">
     <link rel="stylesheet" href="/css/fontawesome.css">
-    <link rel="stylesheet" href="OwlCarousel2/dist/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="OwlCarousel2/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="/slick-theme.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/9dfdb4afa2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 </head>
 <body>
             <!--- Start Navigation Bar -->
@@ -56,17 +55,36 @@
 
           <!--- Start Section One -->
 
-          <div class="home section-a">
-            <p class="hero-text section-a">
-                Quality Living For The Vulnerable.
-            </p>
-              <div class="overlay section-a"></div>
-                </div>
+          <div class="slider" id="wrapper">
+            <div>
+              <div class="home section-a1">
+                <p class="hero-text section-a">
+                    Quality Living For The Vulnerable.
+                </p>
+                    </div>
+            </div>
+
+            <div>
+              <div class="home section-a2">
+                <p class="hero-text section-a">
+                    Quality Living For The Vulnerable.
+                </p>
+                    </div>
+            </div>
+
+            <div>
+              <div class="home section-a3">
+                <p class="hero-text section-a">
+                    Quality Living For The Vulnerable.
+                </p>
+                    </div>
+            </div>
+            
+          </div>   
             
           <!--- End Section One -->
 
           <!--- Start Section Two -->
-         
                 <div class="home section-b">
                   <h1>Hello There</h1>
                   <p>You are important to us and we do not exist for ourselves. Together we play an important role towards the achievement of poverty eradication, zero hunger, improved health and wellbeing, increased economic growth, quality education with equity in Nigeria. This platform is designed to engage, involve and collaborate with you while helping many others grow and succeed too. </p>
@@ -381,13 +399,28 @@
            </div>
          </div>
           <!--- End Footer -->
-</body>
+
+          
+
+  
+
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="\OwlCarousel2\dist\owl.carousel.min.js"></script>
-    <script src="main.js"></script>
+    <script type="text/javascript" src="/slick.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() { 
+        $('.slider').slick({
+          dots: true,
+          arrows: false,
+          autoplay: true,
+          autoplaySpeed: 10000
+        });
+      });
+    </script>
+</body>
+
 </html>
