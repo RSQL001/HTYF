@@ -1,7 +1,7 @@
 /*SLIDER*/
 
 #wrapper {
-    display: block;
+    display: flex;
     position: relative;
 }
 
