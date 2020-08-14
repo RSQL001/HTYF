@@ -2,7 +2,7 @@
 
 #wrapper {
     display: block;
-    width: fit-content;
+    position: relative;
 }
 
 .slick-dots {
