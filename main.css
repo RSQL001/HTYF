@@ -1,31 +1,5 @@
 /*SLIDER*/
 
-#wrapper {
-    display: block;
-    position: relative;
-}
-
-.slick-dots {
-    position: absolute;
-    padding: 5em 0em!important;
-}
-
-.slick-dots li button::before {
-    font-size: 80px;
-    line-height: 20px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 20px;
-    height: 20px;
-    content: '•';
-    text-align: center;
-    opacity: .25;
-    color: #77C043!important;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
 /*.slick-dots li {
     position: relative;
     display: inline-block;
